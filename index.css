@@ -1,0 +1,35 @@
+body {
+    min-height: 100vh;
+    background-color: gray;
+}
+.main {
+    display: flex;
+   column-gap: 10px;
+   row-gap: 10px;
+   /* justify-content: space-around; */
+
+}
+
+.main {
+    height: 1000px;
+    /* align-items: center; */
+    /* flex-direction: row-reverse; */
+}
+
+.class {
+    order: 4;
+    order: 5;
+    order: 3;
+    order: 1;
+    order: 2;
+}
+
+.main div {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    background-color: hsl(30, 28%, 92%);
+    position: relative;
+    height: 100vh;
+    min-height: 100vh;
+    background-color: gray;
+}
+
+/* .static {
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    position: static;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.main {
+    height: 500px;
+    width: 500px;
+    background-color: white;
+    position: absolute;
+    transform: translate(-50%, -50%); 
+    top: 50%;
+    left: 50%;
+    bottom: 0;
+    min-height: 100vh;
+    min-width: 10vh;
+    background-color: green;
+    position: relative;
+}
+
+.signup-btn {
+    position: absolute;
+    right: 100px;
+    top: 50px;
+    padding: 10px 20px;
+}
+
+.signup-btn >span {
+    position: relative;
+    padding: 10px 20px;
+}
+
+.signup-btn>span
+.circle {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    background-color: #fff;
+    border-radius: 50%;
+    bottom: 0px;
+    right: 100px;
+}
+
+.zindexBox {
+    background-color: white;
+    height: 500px;
+    width: 500px;
+    position: relative;
+}
+
+.one, .two, .three {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+
+.zindexBox .one {
+    background-color: red;
+    left: 940px;
+    top: 940px;
+    }
+
+.zindexBox .two {
+    background-color: blue;
+    left: 20px;
+    top: 20px;
+   
+}
+
+.zindexBox .three {
+    background-color: green;
+    left: 40px;
+    top: 40px;
+    
+} */
+
+
+.grid {
+    background-color: white;
+}
+
+.grid div{
+    margin-bottom: 20px;
+}
+
+.g-940 {
+    background-color: palevioletred;
+    height: 150px;
+    width: 940px;
+    
+}
+
+.g-460 > div,
+.g-140 > div,
+.g-220 > div,
+.g-300 > div{
+    margin-right: 20px;
+}
+
+.g-460 div{
+    background-color: palevioletred;
+    height: 150px;
+    width: 460px;
+    display: inline-block;
+}
+
+.g-300 div{
+    background-color: palevioletred;
+    height: 150px;
+    width: 300px;
+    display: inline-block;
+}
+
+.g-220 div{
+    background-color: palevioletred;
+    height: 150px;
+    width: 220px;
+    display: inline-block;
+}
+
+.g-140 div{
+    background-color: palevioletred;
+    height: 150px;
+    width: 140px;
+    display: inline-block;
+}
+
+/* P [class="class"]{
+    background-color: blue;
+} */

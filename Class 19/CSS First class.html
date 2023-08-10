@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS First Class</title>
+    <link rel="stylesheet" href="./specificity.css">
+    <style>
+        .inline {
+            color: red;
+            font-weight: bold;
+        }
+        .specificity {
+            color: blue;
+            font-weight: bold;
+        }
+        div { 
+            background-color: green;
+        }
+        .main-heading {
+            color: red;
+        }
+        div > h1 {
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>Specificity</h1>
+    <ul>
+        <li id="inline" >Inline Style</li>
+        <li class="specificity"> Internal style</li>
+        <li >External style</li>
+    </ul>
+    <h1 class="main-heading">Class 12</h1>
+    <div>
+        <h1>Happy birth day</h1>
+    </div>
+    <ul>
+        <li>Universal selector</li>
+        <li>Element selector</li>
+        <li>class selector</li>
+        <li>id selector</li>
+    </ul>
+    <h1>Properties</h1>
+    <ul >
+        <li>color property</li>
+        <li>text-decoration property</li>
+        <li>font-style property</li>
+        <li>font-size property</li>
+        <li>background-color property</li>
+    </ul>
+    <ul>
+        <li>One</li>
+        <li>Two
+            <div>
+            <ol>
+                <li>item</li>
+                <li>item</li>
+                <li>item</li>
+            </ol>
+            </div>
+        </li>
+        <li>Three</li>
+    </ul>
+</body>
+</html>
