@@ -1,7 +1,14 @@
 body {
-    min-height: 100vh;
-    background-color: gray;
+    min-height: 50vh;
+    background-color: wheat;
+    display: flex;
 }
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .main {
     display: flex;
    column-gap: 10px;
@@ -16,13 +23,6 @@ body {
     /* flex-direction: row-reverse; */
 }
 
-.class {
-    order: 4;
-    order: 5;
-    order: 3;
-    order: 1;
-    order: 2;
-}
 
 .main div {
     height: 100px;
